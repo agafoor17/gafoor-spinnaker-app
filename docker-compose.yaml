@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  ashuapp1:
+    image: gafoorweb:v1
+    build: .
+    container_name: gafoor1
+    ports:
+      - "1992:80"
